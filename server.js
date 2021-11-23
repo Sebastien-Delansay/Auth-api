@@ -8,7 +8,7 @@ const connectDB = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const cors = require('cors');
 
-const appPort = process.env.PORT || '0.0.0.0';
+const appPort = process.env.PORT || 3500;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
