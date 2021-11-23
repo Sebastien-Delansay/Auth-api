@@ -33,4 +33,4 @@ start();
 
 // Routes
 // On définit les routes de l'application
-app.use('./', userRoutes);
+app.use('/api/', userRoutes);
